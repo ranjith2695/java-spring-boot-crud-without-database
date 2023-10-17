@@ -16,7 +16,7 @@ pipeline {
       steps {
         
         // build the project and create a JAR file
-        sh 'cd java-spring-boot-without-database && mvn clean package'
+        sh ' mvn clean package'
       }
     }
 }
