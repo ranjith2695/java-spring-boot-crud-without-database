@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: ranjuranjith/curdapp:7
+        image: ranjuranjith/curdapp:replaceImageTag
         ports:
         - containerPort: 8083
